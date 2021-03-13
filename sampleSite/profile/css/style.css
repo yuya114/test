@@ -19,14 +19,30 @@ img {
 li {
   list-style: none;
 }
+.limit{
+  display:inline-block;
+}
 /* h1タグ用 */
 .site-title {
   width: 120px;
   line-height: 1px;
   padding: 10px 0;
+  color: white;
+  background-color: black;
 }
 .site-title a {
   display: block;
+}
+
+.inline a{
+  display: inline-block;
+}
+
+
+
+.site-title b{
+  display: flex;
+  justify-content: flex-start;
 }
 /* h2タグ用 */
 .section-title {
@@ -48,3 +64,9 @@ li {
   padding: 0 4%;
   text-align: center;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
